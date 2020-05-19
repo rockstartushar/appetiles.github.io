@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background: #9e9efa;
+}
+#header {
+  text-align: center;
+  background: #f0b045;
+  color: #443a02;
+}
+
+#header:nth-child(1) {
+  font-size: 10px;
+  padding: 5px;
+
+  color: #66580f;
+}
+#menu {
+  padding: 10px;
+  background: #81fa70e5;
+}
+#menu-items {
+  text-align: center;
+  display: none;
+  background: black;
+}
+#menu-items a {
+  background-color: transparent;
+}
+#tagline-display {
+  background-color: yellow;
+  overflow-x: none;
+}
+#tagline {
+  text-align: center;
+  position: relative;
+}
+table {
+  row-gap: 0;
+  column-gap: 0;
+}
+tr {
+  padding: 0px;
+}
+td {
+  text-align: center;
+  padding: 0px;
+  width: 33%;
+}
+#itsfree-text {
+  color: red;
+  position: relative;
+}
+#blog {
+  background: #5050f9;
+}
+.bloghead {
+  color: white;
+  background: blue;
+  border: 0.1px solid white;
+  outline: 0;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 15px;
+  width: 80%;
+  height: auto;
+}
+.blog-content {
+  background: red;
+  color: yellow;
+  border: 2px solid #e9fc2e;
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border: 0.1px solid white;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 15px;
+  height: 20px;
+}
+#freeprograms a {
+  color: white;
+  background: #6666dc;
+  border: 2px solid #e9fc2e;
+}
+#contact {
+  background: #f7f78f;
+}
+#ask li {
+  text-align: left;
+  color: white;
+}
+#ask p {
+  color: #fbf1bd;
+}
